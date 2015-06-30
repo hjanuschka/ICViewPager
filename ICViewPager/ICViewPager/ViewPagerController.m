@@ -241,7 +241,7 @@
     
     if(![self.showTabs boolValue]) {
         frame.origin.y=topLayoutGuide;
-        frame.size.height=CGRectGetHeight(self.view.frame)-kTabHeight-15;
+        frame.size.height=CGRectGetHeight(self.view.frame);
         [self.tabsView setAlpha:0];
         self.contentView.frame = frame;
 
